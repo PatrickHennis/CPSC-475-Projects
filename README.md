@@ -72,7 +72,7 @@ Here is where the emulator is awful.  Most are incapable of using the webcam on 
 **AppBar (also known as toolbar)**
 
   You have to set up an AppBar like this for this project.  See lecture notes and the following links;
-  ![Alt text](./ART/11.png?raw=true "Figure 1")
+  
 
 http://developer.android.com/training/appbar/index.html
 
@@ -169,7 +169,7 @@ attached a bunch of extra information to it via putExtra (Subject, Text of messa
 
 **Settings**
 
-Clicking the 3 dots brings up the settings preference Activity:
+![Alt text](./ART/11.png?raw=true "Figure 1")
 
 
 
