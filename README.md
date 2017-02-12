@@ -67,15 +67,12 @@ android:screenOrientation=&quot;portrait&quot;
 
 **Emulator Shortcomings**
 
-Here is where the emulator is awful.  Most are incapable of using the webcam on your development machine. It will however &#39;emulate&#39; a camera, which looks like this.
-
-
-
-Horrendous isn&#39;t it.  It will be easier to develop this project on a physical device.
+Here is where the emulator is awful.  Most are incapable of using the webcam on your development machine. It will however &#39;emulate&#39; a camera.But it will be easier to develop this project on a physical device.
 
 **AppBar (also known as toolbar)**
 
   You have to set up an AppBar like this for this project.  See lecture notes and the following links;
+  
 
 http://developer.android.com/training/appbar/index.html
 
@@ -172,7 +169,7 @@ attached a bunch of extra information to it via putExtra (Subject, Text of messa
 
 **Settings**
 
-Clicking the 3 dots brings up the settings preference Activity:
+![Alt text](./ART/11.png?raw=true "Figure 1")
 
 
 
