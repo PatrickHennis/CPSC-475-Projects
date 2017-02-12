@@ -8,7 +8,7 @@ Please develop an application that can take a picture using the device camera, t
 ![Alt text](./ART/1.png?raw=true "Figure 1")
 **What I have provided**
 
-- A starter project with;
+- A starter project (P2_skel.zip) with;
   - A module library (bitmap\_utilities) contains
     - Bitmap\_Helpers – A wrapper class exposing image manipulation routines you will need for this project
     - Other imaging processing static functions
