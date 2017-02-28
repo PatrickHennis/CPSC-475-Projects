@@ -1,4 +1,4 @@
-**CPEN 475**
+**CPEN 475 by Professor Kieth Perkins at Christopher Newport University**
 
 **Project 2:                 Implicit intents-bitmap manipulation-libraries**
 
