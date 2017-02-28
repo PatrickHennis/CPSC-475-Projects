@@ -27,7 +27,6 @@ import java.io.FileOutputStream;
 
 public class MainActivity extends AppCompatActivity  {
 
-    private Toolbar toolbar;
     private Bitmap photo;
     private final int CAMERA_REQUEST = Constants.CAMERA_REQUEST_VALUE;
     private ImageView imageView;
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
 
         this.imageView = (ImageView)this.findViewById(R.id.background);
@@ -74,8 +73,8 @@ public class MainActivity extends AppCompatActivity  {
         mPercent = myPreference.getInt("sketchiness", mPercent);
         mSaturation = myPreference.getInt("saturation", mSaturation);
 
-        BitmapDrawable drawable = (BitmapDrawable) imageView.getDrawable();
-        Bitmap bitmap = drawable.getBitmap();
+//        BitmapDrawable drawable = (BitmapDrawable) imageView.getDrawable();
+//        Bitmap bitmap = drawable.getBitmap();
         switch (item.getItemId()) {
             case R.id.action_undo:
                 //imageView.setImageBitmap(photo);
@@ -84,12 +83,12 @@ public class MainActivity extends AppCompatActivity  {
                 imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                 break;
             case R.id.action_sketchy:
-                Bitmap sketchyPhoto = BitMap_Helpers.thresholdBmp(bitmap, mPercent);
+                Bitmap sketchyPhoto = BitMap_Helpers.thresholdBmp(photo, mPercent);
                 imageView.setImageBitmap(sketchyPhoto);
                 break;
             case R.id.action_colorize:
-                Bitmap sketchPhoto = BitMap_Helpers.thresholdBmp(bitmap, mPercent);
-                Bitmap colorPhoto = BitMap_Helpers.colorBmp(bitmap, mSaturation);
+                Bitmap sketchPhoto = BitMap_Helpers.thresholdBmp(photo, mPercent);
+                Bitmap colorPhoto = BitMap_Helpers.colorBmp(photo, mSaturation);
                 BitMap_Helpers.merge(colorPhoto, sketchPhoto);
                 imageView.setImageBitmap(colorPhoto);
                 break;
@@ -145,10 +144,10 @@ public class MainActivity extends AppCompatActivity  {
         File file = new File(extBaseDir.getAbsoluteFile()+"/MY_DIRECTORY");
         if(!file.exists()){
             if(!file.mkdirs()){
-                throw new Exception("Could not create directories, "+file.getAbsolutePath());
+                throw new Exception("Could not create directories, " + file.getAbsolutePath());
             }
         }
-        String filePath = file.getAbsolutePath()+"/"+fileName;
+        String filePath = file.getAbsolutePath() + "/" + fileName;
         FileOutputStream out = new FileOutputStream(filePath);
 
         bitmap.compress(Bitmap.CompressFormat.JPEG, Constants.JPEG_COMPRESS_VALUE, out);

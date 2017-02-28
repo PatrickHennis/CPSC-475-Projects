@@ -28,7 +28,8 @@
 
         <activity
             android:name="com.example.solution_color.MainActivity"
-            android:configChanges="keyboardHidden|orientation" >
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
 
             <!--
                 android:screenOrientation="portrait" ensures that the app is always in portrait even when phone rotated
