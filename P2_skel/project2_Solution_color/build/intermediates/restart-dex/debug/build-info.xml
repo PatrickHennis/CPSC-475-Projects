@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="138650741937104"
+    token="4898591446773126162"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="892" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="235" />
+    <task
+        name="verifier"
+        duration="7" />
+
+    <artifact
+        location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="137113406328166"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/outputs/apk/project2_Solution_color-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="138650741937104"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

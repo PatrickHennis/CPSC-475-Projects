@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com">
+
+    <PreferenceCategory android:title="@string/shareOptions"/>
+
+    <EditTextPreference android:title="@string/shareSubject"
+        android:key="subject"
+        android:summary="@string/shareSubject_description"/>
+
+    <EditTextPreference android:title="@string/shareText"
+        android:key="text"
+        android:summary="@string/shareText_description"/>
+
+    <PreferenceCategory android:title="@string/renderingOptions"/>
+
+    <PreferenceCategory
+        android:key="sketchiness">
+        <com.robobunny.SeekBarPreference
+            android:key="sketchiness"
+            android:title="@string/sketchiness"
+            android:summary="@string/sketchiness_description"
+            android:defaultValue="50"
+            android:max="99"
+            robobunny:min="0"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight="%"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="saturation">
+        <com.robobunny.SeekBarPreference
+            android:key="saturation"
+            android:title="@string/saturation"
+            android:summary="@string/saturation_description"
+            android:defaultValue="50"
+            android:max="99"
+            robobunny:min="0"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight="%"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

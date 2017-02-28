@@ -1,0 +1,7 @@
+#Tue Feb 28 13:28:14 EST 2017
+base.0=/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f12e662a89e255514dd6d0f2a5b4ab171948467e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_357393989188ebcf512e5560e949b13da040dec4/classes.dex
+base.1=/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_357393989188ebcf512e5560e949b13da040dec4
+file.0=/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f12e662a89e255514dd6d0f2a5b4ab171948467e/classes.dex

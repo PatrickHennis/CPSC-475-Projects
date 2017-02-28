@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="507f99953d736f2d29515848fb8e49661da60a9c">
+        <dex dex="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f12e662a89e255514dd6d0f2a5b4ab171948467e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_9a42bbf3682590116e49da143635fbbd6ee493a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_33dcaf14095d8bd349217328668e702906cf205a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bb74b7a52aed21eb8f49ddc19a522821e77bc0db">
+        <dex dex="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_357393989188ebcf512e5560e949b13da040dec4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/patrickhennis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_6148f2180b26dc74cf84ccbd7d464f8b1c079ccb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_182f31f4bfca9a361247299c56e2ce3484b4b617/classes.dex" />
+    </item>
+
+</items>
