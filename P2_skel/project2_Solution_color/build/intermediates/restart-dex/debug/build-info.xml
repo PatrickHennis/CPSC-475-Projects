@@ -5,40 +5,40 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="146765744919623"
+    timestamp="158739734616266"
     token="4898591446773126162"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="651" />
+        duration="281" />
     <task
         name="instant-run-dex"
-        duration="1757" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="130" />
+        duration="66" />
     <task
         name="verifier"
-        duration="29" />
+        duration="2" />
 
     <artifact
-        location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="146408980146885"
+        timestamp="157356288407425"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/outputs/apk/project2_Solution_color-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="146765744919623"
-        verifier="COMPATIBLE" >
+        timestamp="158739734616266"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/Users/patrickhennis/Desktop/College/2nd year/second semester/CPSC 475/Project2_Intents/P2_skel/project2_Solution_color/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

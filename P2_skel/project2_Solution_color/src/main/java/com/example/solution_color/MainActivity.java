@@ -1,3 +1,6 @@
+/**
+ * @author Patrick Hennis & Tyler Tracey
+ */
 package com.example.solution_color;
 
 
@@ -171,4 +174,3 @@ public class MainActivity extends AppCompatActivity  {
     }
 
 }
-
